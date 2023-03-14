@@ -1,0 +1,10 @@
+.inputDiv{
+    width: 300px;
+    height: 49px;
+    background-color: rgb(222, 195, 248);
+    border: none;
+    outline: none;
+    border-radius: 9px;
+    padding-left: 10px;
+    font-size: 17px;
+}

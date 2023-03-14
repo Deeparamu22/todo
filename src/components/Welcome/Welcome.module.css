@@ -1,0 +1,46 @@
+.welcome{
+    width: 100%;
+    height: 75%;
+    color: #8424bc;
+    display: flex;
+    background-color: #e7ddff;
+    flex-direction: column;
+    align-items: center;
+}
+p,h1,h2,h3{
+    margin: 0;
+    font-weight: 100;
+}
+.hii{
+    font-size: xx-large;
+}
+.Let{
+    font-size: 20px;
+}
+.image{
+    display: flex;
+    width: 630px;
+    height: 446px;
+    background-image: url('../../../public/assests/customer-support-flat-illustration_23-2148892786_1_-removebg-preview.png');
+    background-size: cover;
+}
+.Explore{
+    margin-top: 10px;
+    color: #919399;
+}
+.buttons{
+    width: 300px;
+    height: 50px;
+    background-color: #8424BC;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 2px solid #8424BC;
+    text-decoration: none;
+}
+.buttons:hover{
+    color:#8424BC;
+    background-color: white;
+}
