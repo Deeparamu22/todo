@@ -3,8 +3,8 @@ import style from './Buttons.module.css'
 
 export default function Buttons(props) {
   return (
-    <div className={style.Buttonwholediv}>
-        <div className={style.buttons+" "+style[props.color]}>{props.name}</div>
+    <div className={style.Buttonwholediv} onClick={()=>props.handleClick()}>
+        <div className={style.buttons+" "+style[props.color]+" "+style[props.loginbuttonclass]}>{props.name}</div>
     </div>
   )
 }

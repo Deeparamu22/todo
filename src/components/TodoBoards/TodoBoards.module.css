@@ -1,0 +1,69 @@
+.wholediv{
+    width: 100%;
+    height: 71vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 95px;
+}
+.smallDiv{
+    width: 314px;
+    height: 248px;
+    border-radius: 10px;
+    background-color: rgba(235, 217, 252, 0.21);
+    margin: 40px 30px 10px 30px;
+    display: grid;
+    align-content: space-evenly;
+    grid-template-rows: 44px 100px 49px;
+    padding-left: 19px;
+    padding-right: 19px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-top: 8px solid #b486f5;
+}
+.iconDiv{
+    display: flex;
+    justify-content: flex-end;
+}
+.icon{
+    color: #b486f5;
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+.TaskName{
+    font-size: 25px;
+    color: #b486f5;
+    width: 20vh;
+    height: 3vh;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.delete:hover{
+    color: red;
+}
+.first{
+    width: 100%;
+    /* overflow-x: scroll; */
+    display: grid;
+    grid-template-columns: 1fr 41px;
+    align-items: center;
+    justify-content: space-between;
+}
+.TaskName::-webkit-scrollbar {
+    display: none;
+  }
+  
+.checkBox{
+    border-color:#7C5DFA;
+    accent-color:#b486f5;
+        width: 30px;
+        height: 30px;
+}
+.header{
+    position: fixed;
+    display: block;
+    text-align: center;
+    width: 100%;
+    background: white;
+}

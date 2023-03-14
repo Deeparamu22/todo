@@ -1,0 +1,58 @@
+.whole{
+    width: 497px;
+    height: 200px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 39%;
+    left: 35%;
+    z-index: 4;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 40px 1fr 40px;
+}
+.delete{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: black;
+}
+.deletebox{
+    display: flex;
+    justify-content: flex-end;
+}
+.cancel{
+    color: #b486f585;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.delete1{
+    color: #b486f5;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+textarea{
+    margin: 0;
+}
+.textarea{
+    width: 464px;
+    height: 138px;
+    resize: none;
+    outline: 1px solid #dac4fd;
+    border: 1px solid #dac4fd;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.input{
+    height: 57px;
+    margin-top: 23px;
+    width: 465px;
+    padding-left: 10px;
+    font-size: 20px;
+}

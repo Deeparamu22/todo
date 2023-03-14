@@ -1,11 +1,44 @@
 .headerbg{
     width: 100%;
-    height: 25%;
-    /* background-image: url('../../../public/assests/purple.jpg'); */
-    background-color: #e0ceff;
+    height: 100%;
+    background: rgb(176,128,244);
+    background: -moz-linear-gradient(171deg, rgba(176,128,244,1) 5%, rgba(224,206,255,0.9023984593837535) 75%);
+    background: -webkit-linear-gradient(171deg, rgba(176,128,244,1) 5%, rgba(224,206,255,0.9023984593837535) 75%);
+    background: linear-gradient(171deg, rgba(176,128,244,1) 5%, rgba(224,206,255,0.9023984593837535) 75%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b080f4",endColorstr="#e0ceff",GradientType=1);
     color: #8424BC;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: xxx-large;
+}
+.styleCircle1{
+    width: 211px;
+    height: 211px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgba(206, 161, 249, 0.309);
+    top: -78px;
+    left: 1675px;
+}
+.styleCircle2{
+    width: 211px;
+    height: 211px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(206 161 249 / 50%);
+    top: -13px;
+    left: 1754px;
+}
+.styleCircle3{
+    
+    width: 211px;
+    height: 211px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(218 179 255);
+    top: -53px;
+    left: 42px;
+    z-index: 1;
+
 }
